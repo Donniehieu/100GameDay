@@ -1,0 +1,7 @@
+{
+  "name": "com.bigbear.core.runtime",
+  "references": [
+    "Sirenix.Serialization"
+  ],
+  "allowUnsafeCode": true
+}

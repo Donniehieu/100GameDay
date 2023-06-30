@@ -1,0 +1,9 @@
+{
+  "name": "Cinemachine",
+  "references": [
+    "Unity.Timeline",
+    "Unity.InputSystem",
+    "Unity.RenderPipelines.Core.Runtime"
+  ],
+  "allowUnsafeCode": true
+}

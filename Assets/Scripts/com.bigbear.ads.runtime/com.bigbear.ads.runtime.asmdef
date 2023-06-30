@@ -1,0 +1,8 @@
+{
+  "name": "com.bigbear.ads.runtime",
+  "references": [
+    "com.bigbear.core.runtime",
+    "MaxSdk.Scripts"
+  ],
+  "allowUnsafeCode": true
+}

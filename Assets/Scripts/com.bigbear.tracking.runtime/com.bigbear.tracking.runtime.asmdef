@@ -1,0 +1,7 @@
+{
+  "name": "com.bigbear.tracking.runtime",
+  "references": [
+    "com.bigbear.core.runtime"
+  ],
+  "allowUnsafeCode": true
+}

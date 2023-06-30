@@ -1,0 +1,34 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7c835fd7960002ea8f7051b6ac45aaa0, type: 3}
+  m_Name: DUISettings
+  m_EditorClassIdentifier:
+  autoExpandEnabledFeatures: 0
+  UIButton_allowMultipleClicks: 1
+  UIButton_disableButtonInterval: 0.4
+  UIButton_deselectButtonOnClick: 1
+  UIButton_Inspector_HideOnClick: 0
+  UIButton_useOnClickAnimations: 1
+  UIButton_waitForOnClickAnimation: 1
+  UIButton_singleClickMode: 0
+  UIButton_customOnClickSound: 0
+  UIButton_onClickAnimationType: 0
+  UIButton_onClickPunchPresetCategory: Uncategorized
+  UIButton_onClickPunchPresetName: DefaultPreset
+  UIButton_loadOnClickPunchPresetAtRuntime: 0
+  UIButton_onClickStatePresetCategory: Uncategorized
+  UIButton_onClickStatePresetName: DefaultPreset
+  UIButton_loadOnClickStatePresetAtRuntime: 0
+  UIButton_Inspector_HideNormalLoop: 0
+  UIButton_normalLoopPresetCategory: Uncategorized
+  UIButton_normalLoopPresetName: DefaultPreset
+  UIButton_loadNormalLoopPresetAtRuntime: 0

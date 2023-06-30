@@ -1,0 +1,414 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 43fe2c286388f3a2884b64a2c3e3462c, type: 3}
+  m_Name: TroopData
+  m_EditorClassIdentifier:
+  serializationData:
+    SerializedFormat: 0
+    SerializedBytes:
+    ReferencedUnityObjects: []
+    SerializedBytesString:
+    Prefab: {fileID: 0}
+    PrefabModificationsReferencedUnityObjects: []
+    PrefabModifications: []
+    SerializationNodes: []
+  Troops:
+  - TroopType: 1
+    Level: 1
+    TrainingTime: 15
+    Hp: 40
+    RegenHp: 0.5
+    AttackType: 1
+    Damage: 8
+    AttackSpeed: 0.75
+    AttackRange: 1
+    DamageType: 1
+    DamAoeRange: 0
+    MoveSpeed: 9
+    prefab: {fileID: 114133257095980549, guid: e487b62dbcdbcc54681ed19f562d7cea, type: 2}
+  - TroopType: 1
+    Level: 2
+    TrainingTime: 15
+    Hp: 60
+    RegenHp: 0.5
+    AttackType: 1
+    Damage: 12
+    AttackSpeed: 0.75
+    AttackRange: 1
+    DamageType: 1
+    DamAoeRange: 0
+    MoveSpeed: 9
+    prefab: {fileID: 114133257095980549, guid: e487b62dbcdbcc54681ed19f562d7cea, type: 2}
+  - TroopType: 1
+    Level: 3
+    TrainingTime: 15
+    Hp: 90
+    RegenHp: 0.5
+    AttackType: 1
+    Damage: 18
+    AttackSpeed: 0.75
+    AttackRange: 1
+    DamageType: 1
+    DamAoeRange: 0
+    MoveSpeed: 9
+    prefab: {fileID: 114133257095980549, guid: e487b62dbcdbcc54681ed19f562d7cea, type: 2}
+  - TroopType: 1
+    Level: 4
+    TrainingTime: 15
+    Hp: 120
+    RegenHp: 0.5
+    AttackType: 1
+    Damage: 24
+    AttackSpeed: 0.75
+    AttackRange: 1
+    DamageType: 1
+    DamAoeRange: 0
+    MoveSpeed: 9
+    prefab: {fileID: 114133257095980549, guid: e487b62dbcdbcc54681ed19f562d7cea, type: 2}
+  - TroopType: 1
+    Level: 5
+    TrainingTime: 15
+    Hp: 160
+    RegenHp: 0.5
+    AttackType: 1
+    Damage: 32
+    AttackSpeed: 0.75
+    AttackRange: 1
+    DamageType: 1
+    DamAoeRange: 0
+    MoveSpeed: 9
+    prefab: {fileID: 114133257095980549, guid: e487b62dbcdbcc54681ed19f562d7cea, type: 2}
+  - TroopType: 1
+    Level: 6
+    TrainingTime: 15
+    Hp: 200
+    RegenHp: 0.5
+    AttackType: 1
+    Damage: 40
+    AttackSpeed: 0.75
+    AttackRange: 1
+    DamageType: 1
+    DamAoeRange: 0
+    MoveSpeed: 9
+    prefab: {fileID: 114133257095980549, guid: e487b62dbcdbcc54681ed19f562d7cea, type: 2}
+  - TroopType: 1
+    Level: 7
+    TrainingTime: 15
+    Hp: 240
+    RegenHp: 0.5
+    AttackType: 1
+    Damage: 48
+    AttackSpeed: 0.75
+    AttackRange: 1
+    DamageType: 1
+    DamAoeRange: 0
+    MoveSpeed: 9
+    prefab: {fileID: 114133257095980549, guid: e487b62dbcdbcc54681ed19f562d7cea, type: 2}
+  - TroopType: 1
+    Level: 8
+    TrainingTime: 15
+    Hp: 280
+    RegenHp: 0.5
+    AttackType: 1
+    Damage: 56
+    AttackSpeed: 0.75
+    AttackRange: 1
+    DamageType: 1
+    DamAoeRange: 0
+    MoveSpeed: 9
+    prefab: {fileID: 114133257095980549, guid: e487b62dbcdbcc54681ed19f562d7cea, type: 2}
+  - TroopType: 1
+    Level: 9
+    TrainingTime: 15
+    Hp: 320
+    RegenHp: 0.5
+    AttackType: 1
+    Damage: 64
+    AttackSpeed: 0.75
+    AttackRange: 1
+    DamageType: 1
+    DamAoeRange: 0
+    MoveSpeed: 9
+    prefab: {fileID: 114133257095980549, guid: e487b62dbcdbcc54681ed19f562d7cea, type: 2}
+  - TroopType: 1
+    Level: 10
+    TrainingTime: 15
+    Hp: 360
+    RegenHp: 0.5
+    AttackType: 1
+    Damage: 72
+    AttackSpeed: 0.75
+    AttackRange: 1
+    DamageType: 1
+    DamAoeRange: 0
+    MoveSpeed: 9
+    prefab: {fileID: 114133257095980549, guid: e487b62dbcdbcc54681ed19f562d7cea, type: 2}
+  - TroopType: 2
+    Level: 1
+    TrainingTime: 15
+    Hp: 25
+    RegenHp: 0.5
+    AttackType: 2
+    Damage: 5
+    AttackSpeed: 0.5
+    AttackRange: 15
+    DamageType: 1
+    DamAoeRange: 0
+    MoveSpeed: 10
+    prefab: {fileID: 114424008886761999, guid: 91177099d636d9e41b493bf0900ff4c7, type: 2}
+  - TroopType: 2
+    Level: 2
+    TrainingTime: 15
+    Hp: 35
+    RegenHp: 0.5
+    AttackType: 2
+    Damage: 7
+    AttackSpeed: 0.5
+    AttackRange: 15
+    DamageType: 1
+    DamAoeRange: 0
+    MoveSpeed: 10
+    prefab: {fileID: 114424008886761999, guid: 91177099d636d9e41b493bf0900ff4c7, type: 2}
+  - TroopType: 2
+    Level: 3
+    TrainingTime: 15
+    Hp: 45
+    RegenHp: 0.5
+    AttackType: 2
+    Damage: 9
+    AttackSpeed: 0.5
+    AttackRange: 15
+    DamageType: 1
+    DamAoeRange: 0
+    MoveSpeed: 10
+    prefab: {fileID: 114424008886761999, guid: 91177099d636d9e41b493bf0900ff4c7, type: 2}
+  - TroopType: 2
+    Level: 4
+    TrainingTime: 15
+    Hp: 60
+    RegenHp: 0.5
+    AttackType: 2
+    Damage: 12
+    AttackSpeed: 0.5
+    AttackRange: 15
+    DamageType: 1
+    DamAoeRange: 0
+    MoveSpeed: 10
+    prefab: {fileID: 114424008886761999, guid: 91177099d636d9e41b493bf0900ff4c7, type: 2}
+  - TroopType: 2
+    Level: 5
+    TrainingTime: 15
+    Hp: 80
+    RegenHp: 0.5
+    AttackType: 2
+    Damage: 16
+    AttackSpeed: 0.5
+    AttackRange: 15
+    DamageType: 1
+    DamAoeRange: 0
+    MoveSpeed: 10
+    prefab: {fileID: 114424008886761999, guid: 91177099d636d9e41b493bf0900ff4c7, type: 2}
+  - TroopType: 2
+    Level: 6
+    TrainingTime: 15
+    Hp: 100
+    RegenHp: 0.5
+    AttackType: 2
+    Damage: 20
+    AttackSpeed: 0.5
+    AttackRange: 15
+    DamageType: 1
+    DamAoeRange: 0
+    MoveSpeed: 10
+    prefab: {fileID: 114424008886761999, guid: 91177099d636d9e41b493bf0900ff4c7, type: 2}
+  - TroopType: 2
+    Level: 7
+    TrainingTime: 15
+    Hp: 120
+    RegenHp: 0.5
+    AttackType: 2
+    Damage: 24
+    AttackSpeed: 0.5
+    AttackRange: 15
+    DamageType: 1
+    DamAoeRange: 0
+    MoveSpeed: 10
+    prefab: {fileID: 114424008886761999, guid: 91177099d636d9e41b493bf0900ff4c7, type: 2}
+  - TroopType: 2
+    Level: 8
+    TrainingTime: 15
+    Hp: 140
+    RegenHp: 0.5
+    AttackType: 2
+    Damage: 28
+    AttackSpeed: 0.5
+    AttackRange: 15
+    DamageType: 1
+    DamAoeRange: 0
+    MoveSpeed: 10
+    prefab: {fileID: 114424008886761999, guid: 91177099d636d9e41b493bf0900ff4c7, type: 2}
+  - TroopType: 2
+    Level: 9
+    TrainingTime: 15
+    Hp: 160
+    RegenHp: 0.5
+    AttackType: 2
+    Damage: 32
+    AttackSpeed: 0.5
+    AttackRange: 15
+    DamageType: 1
+    DamAoeRange: 0
+    MoveSpeed: 10
+    prefab: {fileID: 114424008886761999, guid: 91177099d636d9e41b493bf0900ff4c7, type: 2}
+  - TroopType: 2
+    Level: 10
+    TrainingTime: 15
+    Hp: 180
+    RegenHp: 0.5
+    AttackType: 2
+    Damage: 36
+    AttackSpeed: 0.5
+    AttackRange: 15
+    DamageType: 1
+    DamAoeRange: 0
+    MoveSpeed: 10
+    prefab: {fileID: 114424008886761999, guid: 91177099d636d9e41b493bf0900ff4c7, type: 2}
+  - TroopType: 3
+    Level: 1
+    TrainingTime: 20
+    Hp: 80
+    RegenHp: 0.5
+    AttackType: 1
+    Damage: 16
+    AttackSpeed: 1.25
+    AttackRange: 2
+    DamageType: 1
+    DamAoeRange: 0
+    MoveSpeed: 7
+    prefab: {fileID: 114950208502510352, guid: 94991764e868a1c4a92efa6d6e3ffc22, type: 2}
+  - TroopType: 3
+    Level: 2
+    TrainingTime: 20
+    Hp: 120
+    RegenHp: 0.5
+    AttackType: 1
+    Damage: 24
+    AttackSpeed: 1.25
+    AttackRange: 2
+    DamageType: 1
+    DamAoeRange: 0
+    MoveSpeed: 7
+    prefab: {fileID: 114950208502510352, guid: 94991764e868a1c4a92efa6d6e3ffc22, type: 2}
+  - TroopType: 3
+    Level: 3
+    TrainingTime: 20
+    Hp: 180
+    RegenHp: 0.5
+    AttackType: 1
+    Damage: 36
+    AttackSpeed: 1.25
+    AttackRange: 2
+    DamageType: 1
+    DamAoeRange: 0
+    MoveSpeed: 7
+    prefab: {fileID: 114950208502510352, guid: 94991764e868a1c4a92efa6d6e3ffc22, type: 2}
+  - TroopType: 3
+    Level: 4
+    TrainingTime: 20
+    Hp: 260
+    RegenHp: 0.5
+    AttackType: 1
+    Damage: 52
+    AttackSpeed: 1.25
+    AttackRange: 2
+    DamageType: 1
+    DamAoeRange: 0
+    MoveSpeed: 7
+    prefab: {fileID: 114950208502510352, guid: 94991764e868a1c4a92efa6d6e3ffc22, type: 2}
+  - TroopType: 3
+    Level: 5
+    TrainingTime: 20
+    Hp: 340
+    RegenHp: 0.5
+    AttackType: 1
+    Damage: 68
+    AttackSpeed: 1.25
+    AttackRange: 2
+    DamageType: 1
+    DamAoeRange: 0
+    MoveSpeed: 7
+    prefab: {fileID: 114950208502510352, guid: 94991764e868a1c4a92efa6d6e3ffc22, type: 2}
+  - TroopType: 3
+    Level: 6
+    TrainingTime: 20
+    Hp: 420
+    RegenHp: 0.5
+    AttackType: 1
+    Damage: 84
+    AttackSpeed: 1.25
+    AttackRange: 2
+    DamageType: 1
+    DamAoeRange: 0
+    MoveSpeed: 7
+    prefab: {fileID: 114950208502510352, guid: 94991764e868a1c4a92efa6d6e3ffc22, type: 2}
+  - TroopType: 3
+    Level: 7
+    TrainingTime: 20
+    Hp: 500
+    RegenHp: 0.5
+    AttackType: 1
+    Damage: 100
+    AttackSpeed: 1.25
+    AttackRange: 2
+    DamageType: 1
+    DamAoeRange: 0
+    MoveSpeed: 7
+    prefab: {fileID: 114950208502510352, guid: 94991764e868a1c4a92efa6d6e3ffc22, type: 2}
+  - TroopType: 3
+    Level: 8
+    TrainingTime: 20
+    Hp: 580
+    RegenHp: 0.5
+    AttackType: 1
+    Damage: 116
+    AttackSpeed: 1.25
+    AttackRange: 2
+    DamageType: 1
+    DamAoeRange: 0
+    MoveSpeed: 7
+    prefab: {fileID: 114950208502510352, guid: 94991764e868a1c4a92efa6d6e3ffc22, type: 2}
+  - TroopType: 3
+    Level: 9
+    TrainingTime: 20
+    Hp: 660
+    RegenHp: 0.5
+    AttackType: 1
+    Damage: 132
+    AttackSpeed: 1.25
+    AttackRange: 2
+    DamageType: 1
+    DamAoeRange: 0
+    MoveSpeed: 7
+    prefab: {fileID: 114950208502510352, guid: 94991764e868a1c4a92efa6d6e3ffc22, type: 2}
+  - TroopType: 3
+    Level: 10
+    TrainingTime: 20
+    Hp: 740
+    RegenHp: 0.5
+    AttackType: 1
+    Damage: 148
+    AttackSpeed: 1.25
+    AttackRange: 2
+    DamageType: 1
+    DamAoeRange: 0
+    MoveSpeed: 7
+    prefab: {fileID: 114950208502510352, guid: 94991764e868a1c4a92efa6d6e3ffc22, type: 2}

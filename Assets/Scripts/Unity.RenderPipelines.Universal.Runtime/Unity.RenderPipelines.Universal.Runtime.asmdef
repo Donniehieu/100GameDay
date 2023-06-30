@@ -1,0 +1,10 @@
+{
+  "name": "Unity.RenderPipelines.Universal.Runtime",
+  "references": [
+    "Unity.RenderPipelines.Core.Runtime",
+    "Unity.RenderPipeline.Universal.ShaderLibrary",
+    "Unity.Mathematics",
+    "Unity.Burst"
+  ],
+  "allowUnsafeCode": true
+}

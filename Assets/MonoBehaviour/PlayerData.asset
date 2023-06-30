@@ -1,0 +1,524 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 940a98debedd4ebf1a247df91f0633f9, type: 3}
+  m_Name: PlayerData
+  m_EditorClassIdentifier:
+  serializationData:
+    SerializedFormat: 0
+    SerializedBytes:
+    ReferencedUnityObjects: []
+    SerializedBytesString:
+    Prefab: {fileID: 0}
+    PrefabModificationsReferencedUnityObjects: []
+    PrefabModifications: []
+    SerializationNodes: []
+  Levels:
+  - Level: 1
+    Exp: 0
+    Hp: 50
+    Atk: 10
+    MoveSpeed: 11
+  - Level: 2
+    Exp: 25
+    Hp: 60
+    Atk: 12
+    MoveSpeed: 11
+  - Level: 3
+    Exp: 50
+    Hp: 70
+    Atk: 14
+    MoveSpeed: 11
+  - Level: 4
+    Exp: 75
+    Hp: 80
+    Atk: 16
+    MoveSpeed: 11
+  - Level: 5
+    Exp: 100
+    Hp: 90
+    Atk: 18
+    MoveSpeed: 11
+  - Level: 6
+    Exp: 125
+    Hp: 100
+    Atk: 20
+    MoveSpeed: 11
+  - Level: 7
+    Exp: 150
+    Hp: 110
+    Atk: 22
+    MoveSpeed: 11
+  - Level: 8
+    Exp: 175
+    Hp: 120
+    Atk: 24
+    MoveSpeed: 11
+  - Level: 9
+    Exp: 200
+    Hp: 130
+    Atk: 26
+    MoveSpeed: 11
+  - Level: 10
+    Exp: 225
+    Hp: 140
+    Atk: 28
+    MoveSpeed: 11
+  - Level: 11
+    Exp: 250
+    Hp: 150
+    Atk: 30
+    MoveSpeed: 11
+  - Level: 12
+    Exp: 275
+    Hp: 160
+    Atk: 32
+    MoveSpeed: 11
+  - Level: 13
+    Exp: 300
+    Hp: 170
+    Atk: 34
+    MoveSpeed: 11
+  - Level: 14
+    Exp: 325
+    Hp: 180
+    Atk: 36
+    MoveSpeed: 11
+  - Level: 15
+    Exp: 350
+    Hp: 190
+    Atk: 38
+    MoveSpeed: 11
+  - Level: 16
+    Exp: 375
+    Hp: 200
+    Atk: 40
+    MoveSpeed: 11
+  - Level: 17
+    Exp: 400
+    Hp: 210
+    Atk: 42
+    MoveSpeed: 11
+  - Level: 18
+    Exp: 425
+    Hp: 220
+    Atk: 44
+    MoveSpeed: 11
+  - Level: 19
+    Exp: 450
+    Hp: 230
+    Atk: 46
+    MoveSpeed: 11
+  - Level: 20
+    Exp: 475
+    Hp: 240
+    Atk: 48
+    MoveSpeed: 11
+  - Level: 21
+    Exp: 500
+    Hp: 250
+    Atk: 50
+    MoveSpeed: 11
+  - Level: 22
+    Exp: 525
+    Hp: 260
+    Atk: 52
+    MoveSpeed: 11
+  - Level: 23
+    Exp: 550
+    Hp: 270
+    Atk: 54
+    MoveSpeed: 11
+  - Level: 24
+    Exp: 575
+    Hp: 280
+    Atk: 56
+    MoveSpeed: 11
+  - Level: 25
+    Exp: 600
+    Hp: 290
+    Atk: 58
+    MoveSpeed: 11
+  - Level: 26
+    Exp: 625
+    Hp: 300
+    Atk: 60
+    MoveSpeed: 11
+  - Level: 27
+    Exp: 650
+    Hp: 310
+    Atk: 62
+    MoveSpeed: 11
+  - Level: 28
+    Exp: 675
+    Hp: 320
+    Atk: 64
+    MoveSpeed: 11
+  - Level: 29
+    Exp: 700
+    Hp: 330
+    Atk: 66
+    MoveSpeed: 11
+  - Level: 30
+    Exp: 725
+    Hp: 340
+    Atk: 68
+    MoveSpeed: 11
+  - Level: 31
+    Exp: 750
+    Hp: 350
+    Atk: 70
+    MoveSpeed: 11
+  - Level: 32
+    Exp: 775
+    Hp: 360
+    Atk: 72
+    MoveSpeed: 11
+  - Level: 33
+    Exp: 800
+    Hp: 370
+    Atk: 74
+    MoveSpeed: 11
+  - Level: 34
+    Exp: 825
+    Hp: 380
+    Atk: 76
+    MoveSpeed: 11
+  - Level: 35
+    Exp: 850
+    Hp: 390
+    Atk: 78
+    MoveSpeed: 11
+  - Level: 36
+    Exp: 875
+    Hp: 400
+    Atk: 80
+    MoveSpeed: 11
+  - Level: 37
+    Exp: 900
+    Hp: 410
+    Atk: 82
+    MoveSpeed: 11
+  - Level: 38
+    Exp: 925
+    Hp: 420
+    Atk: 84
+    MoveSpeed: 11
+  - Level: 39
+    Exp: 950
+    Hp: 430
+    Atk: 86
+    MoveSpeed: 11
+  - Level: 40
+    Exp: 975
+    Hp: 440
+    Atk: 88
+    MoveSpeed: 11
+  - Level: 41
+    Exp: 1000
+    Hp: 450
+    Atk: 90
+    MoveSpeed: 11
+  - Level: 42
+    Exp: 1025
+    Hp: 460
+    Atk: 92
+    MoveSpeed: 11
+  - Level: 43
+    Exp: 1050
+    Hp: 470
+    Atk: 94
+    MoveSpeed: 11
+  - Level: 44
+    Exp: 1075
+    Hp: 480
+    Atk: 96
+    MoveSpeed: 11
+  - Level: 45
+    Exp: 1100
+    Hp: 490
+    Atk: 98
+    MoveSpeed: 11
+  - Level: 46
+    Exp: 1125
+    Hp: 500
+    Atk: 100
+    MoveSpeed: 11
+  - Level: 47
+    Exp: 1150
+    Hp: 510
+    Atk: 102
+    MoveSpeed: 11
+  - Level: 48
+    Exp: 1175
+    Hp: 520
+    Atk: 104
+    MoveSpeed: 11
+  - Level: 49
+    Exp: 1200
+    Hp: 530
+    Atk: 106
+    MoveSpeed: 11
+  - Level: 50
+    Exp: 1225
+    Hp: 540
+    Atk: 108
+    MoveSpeed: 11
+  - Level: 51
+    Exp: 1250
+    Hp: 550
+    Atk: 110
+    MoveSpeed: 11
+  - Level: 52
+    Exp: 1275
+    Hp: 560
+    Atk: 112
+    MoveSpeed: 11
+  - Level: 53
+    Exp: 1300
+    Hp: 570
+    Atk: 114
+    MoveSpeed: 11
+  - Level: 54
+    Exp: 1325
+    Hp: 580
+    Atk: 116
+    MoveSpeed: 11
+  - Level: 55
+    Exp: 1350
+    Hp: 590
+    Atk: 118
+    MoveSpeed: 11
+  - Level: 56
+    Exp: 1375
+    Hp: 600
+    Atk: 120
+    MoveSpeed: 11
+  - Level: 57
+    Exp: 1400
+    Hp: 610
+    Atk: 122
+    MoveSpeed: 11
+  - Level: 58
+    Exp: 1425
+    Hp: 620
+    Atk: 124
+    MoveSpeed: 11
+  - Level: 59
+    Exp: 1450
+    Hp: 630
+    Atk: 126
+    MoveSpeed: 11
+  - Level: 60
+    Exp: 1475
+    Hp: 640
+    Atk: 128
+    MoveSpeed: 11
+  - Level: 61
+    Exp: 1500
+    Hp: 650
+    Atk: 130
+    MoveSpeed: 11
+  - Level: 62
+    Exp: 1525
+    Hp: 660
+    Atk: 132
+    MoveSpeed: 11
+  - Level: 63
+    Exp: 1550
+    Hp: 670
+    Atk: 134
+    MoveSpeed: 11
+  - Level: 64
+    Exp: 1575
+    Hp: 680
+    Atk: 136
+    MoveSpeed: 11
+  - Level: 65
+    Exp: 1600
+    Hp: 690
+    Atk: 138
+    MoveSpeed: 11
+  - Level: 66
+    Exp: 1625
+    Hp: 700
+    Atk: 140
+    MoveSpeed: 11
+  - Level: 67
+    Exp: 1650
+    Hp: 710
+    Atk: 142
+    MoveSpeed: 11
+  - Level: 68
+    Exp: 1675
+    Hp: 720
+    Atk: 144
+    MoveSpeed: 11
+  - Level: 69
+    Exp: 1700
+    Hp: 730
+    Atk: 146
+    MoveSpeed: 11
+  - Level: 70
+    Exp: 1725
+    Hp: 740
+    Atk: 148
+    MoveSpeed: 11
+  - Level: 71
+    Exp: 1750
+    Hp: 750
+    Atk: 150
+    MoveSpeed: 11
+  - Level: 72
+    Exp: 1775
+    Hp: 760
+    Atk: 152
+    MoveSpeed: 11
+  - Level: 73
+    Exp: 1800
+    Hp: 770
+    Atk: 154
+    MoveSpeed: 11
+  - Level: 74
+    Exp: 1825
+    Hp: 780
+    Atk: 156
+    MoveSpeed: 11
+  - Level: 75
+    Exp: 1850
+    Hp: 790
+    Atk: 158
+    MoveSpeed: 11
+  - Level: 76
+    Exp: 1875
+    Hp: 800
+    Atk: 160
+    MoveSpeed: 11
+  - Level: 77
+    Exp: 1900
+    Hp: 810
+    Atk: 162
+    MoveSpeed: 11
+  - Level: 78
+    Exp: 1925
+    Hp: 820
+    Atk: 164
+    MoveSpeed: 11
+  - Level: 79
+    Exp: 1950
+    Hp: 830
+    Atk: 166
+    MoveSpeed: 11
+  - Level: 80
+    Exp: 1975
+    Hp: 840
+    Atk: 168
+    MoveSpeed: 11
+  - Level: 81
+    Exp: 2000
+    Hp: 850
+    Atk: 170
+    MoveSpeed: 11
+  - Level: 82
+    Exp: 2025
+    Hp: 860
+    Atk: 172
+    MoveSpeed: 11
+  - Level: 83
+    Exp: 2050
+    Hp: 870
+    Atk: 174
+    MoveSpeed: 11
+  - Level: 84
+    Exp: 2075
+    Hp: 880
+    Atk: 176
+    MoveSpeed: 11
+  - Level: 85
+    Exp: 2100
+    Hp: 890
+    Atk: 178
+    MoveSpeed: 11
+  - Level: 86
+    Exp: 2125
+    Hp: 900
+    Atk: 180
+    MoveSpeed: 11
+  - Level: 87
+    Exp: 2150
+    Hp: 910
+    Atk: 182
+    MoveSpeed: 11
+  - Level: 88
+    Exp: 2175
+    Hp: 920
+    Atk: 184
+    MoveSpeed: 11
+  - Level: 89
+    Exp: 2200
+    Hp: 930
+    Atk: 186
+    MoveSpeed: 11
+  - Level: 90
+    Exp: 2225
+    Hp: 940
+    Atk: 188
+    MoveSpeed: 11
+  - Level: 91
+    Exp: 2250
+    Hp: 950
+    Atk: 190
+    MoveSpeed: 11
+  - Level: 92
+    Exp: 2275
+    Hp: 960
+    Atk: 192
+    MoveSpeed: 11
+  - Level: 93
+    Exp: 2300
+    Hp: 970
+    Atk: 194
+    MoveSpeed: 11
+  - Level: 94
+    Exp: 2325
+    Hp: 980
+    Atk: 196
+    MoveSpeed: 11
+  - Level: 95
+    Exp: 2350
+    Hp: 990
+    Atk: 198
+    MoveSpeed: 11
+  - Level: 96
+    Exp: 2375
+    Hp: 1000
+    Atk: 200
+    MoveSpeed: 11
+  - Level: 97
+    Exp: 2400
+    Hp: 1010
+    Atk: 202
+    MoveSpeed: 11
+  - Level: 98
+    Exp: 2425
+    Hp: 1020
+    Atk: 204
+    MoveSpeed: 11
+  - Level: 99
+    Exp: 2450
+    Hp: 1030
+    Atk: 206
+    MoveSpeed: 11
+  - Level: 100
+    Exp: 2475
+    Hp: 1040
+    Atk: 208
+    MoveSpeed: 11

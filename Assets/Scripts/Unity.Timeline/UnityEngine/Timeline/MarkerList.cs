@@ -1,0 +1,89 @@
+using System;
+using System.Collections.Generic;
+using System.Reflection;
+using UnityEngine.Playables;
+
+namespace UnityEngine.Timeline
+{
+	[Serializable]
+	[DefaultMember("Item")]
+	internal struct MarkerList : ISerializationCallbackReceiver
+	{
+		[SerializeField]
+		[HideInInspector]
+		private List<ScriptableObject> m_Objects;
+
+		[NonSerialized]
+		[HideInInspector]
+		private List<IMarker> m_Cache;
+
+		private bool m_CacheDirty;
+
+		private bool m_HasNotifications;
+
+		public List<IMarker> markers => null;
+
+		public int Count => 0;
+
+		public IMarker Item => null;
+
+		public MarkerList(int capacity)
+		{
+		}
+
+		public void Add(ScriptableObject item)
+		{
+		}
+
+		public bool Remove(IMarker item)
+		{
+			return false;
+		}
+
+		public bool Remove(ScriptableObject item, TimelineAsset timelineAsset, PlayableAsset thingToDirty)
+		{
+			return false;
+		}
+
+		public void Clear()
+		{
+		}
+
+		public bool Contains(ScriptableObject item)
+		{
+			return false;
+		}
+
+		public IEnumerable<IMarker> GetMarkers()
+		{
+			return null;
+		}
+
+		public List<ScriptableObject> GetRawMarkerList()
+		{
+			return null;
+		}
+
+		public IMarker CreateMarker(Type type, double time, TrackAsset owner)
+		{
+			return null;
+		}
+
+		public bool HasNotifications()
+		{
+			return false;
+		}
+
+		private void UnityEngine_002EISerializationCallbackReceiver_002EOnBeforeSerialize()
+		{
+		}
+
+		private void UnityEngine_002EISerializationCallbackReceiver_002EOnAfterDeserialize()
+		{
+		}
+
+		private void BuildCache()
+		{
+		}
+	}
+}

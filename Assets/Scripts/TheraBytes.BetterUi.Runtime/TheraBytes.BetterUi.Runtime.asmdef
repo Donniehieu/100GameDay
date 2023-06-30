@@ -1,0 +1,7 @@
+{
+  "name": "TheraBytes.BetterUi.Runtime",
+  "references": [
+    "Unity.TextMeshPro"
+  ],
+  "allowUnsafeCode": true
+}

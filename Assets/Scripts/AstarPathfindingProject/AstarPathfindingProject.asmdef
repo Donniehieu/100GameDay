@@ -1,0 +1,9 @@
+{
+  "name": "AstarPathfindingProject",
+  "references": [
+    "Pathfinding.Ionic.Zip.Reduced",
+    "Pathfinding.ClipperLib",
+    "Pathfinding.Poly2Tri"
+  ],
+  "allowUnsafeCode": true
+}
